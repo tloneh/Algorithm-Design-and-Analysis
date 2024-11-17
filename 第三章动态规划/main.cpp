@@ -38,13 +38,12 @@ string longestRepeatedSubstring(const string& s) {
 }
 
 int main() {
-    string str1 = "geeksforgeeks";
-    string str2 = "aabaabaaba";
+    string str1;
+    cout<< "enter str:";
+    cin>> str1;
 
     cout << "Longest repeated substring in \"" << str1 << "\": " 
          << longestRepeatedSubstring(str1) << endl;
-    cout << "Longest repeated substring in \"" << str2 << "\": " 
-         << longestRepeatedSubstring(str2) << endl;
 
     return 0;
 }
